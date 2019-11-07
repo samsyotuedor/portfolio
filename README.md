@@ -1,2 +1,0 @@
-# portfolio
-webpage about me
