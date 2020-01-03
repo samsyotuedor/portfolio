@@ -1,22 +1,81 @@
-<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>tasks</title>
+    <title>About me</title>
     <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="port.js"></script>
 </head>
-<body>
-    <div clas="w3-blue w3-container" style="height:100vh" >
-        <header class="w3-blue w3-container">
-            <button>Home</button>
-            <button>About</button>
-            <button>Services</button>
-            <select name="Dropdown" id="dropdown"> Dropdown</select>
-            ok
-        </header>
+<body class="w3-blue">
+<header class="w3-container w3-blue  ">
+    <div class="w3-btn">Known me more |</div>
+    <div class="w3-btn">Projects   |</div>
+    <div class="w3-btn">Contact Me  |</div>
+    <div class="w3-btn">Hire Me |</div> 
+</header>
+    <div class="w3-center">
+    <h2>OTUEDOR Gideon</h2>
     </div>
-    
+    <div class="w3-center">
+        <img class="myheight-50 mywidth-90"  src="bckimg1.jpg" alt="dream">
+    </div>
+    <div style="display: flex;" class=" mywidth-95">
+        <div class="w3-white w3-center  mywidth-80" style="margin-left: 5.2%;padding-left: 10px; padding-right: 100px;">
+            <h2><i><b> know Me More</h2></i></b>
+            <p style="font-size: 20px;" class="myheight-60" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+            <div>
+                <button style=" color:white; background-color:darkcyan;border: none; width: 20%; height: 30px; "><b>My Resume</b></button>
+                <button style=" color:white; background-color:cornflowerblue;  border: none;width: 20%; height: 30px;"> <b>Contact Me</b></button>
+            </div>
+        </div>
+         <img class="mywidth-20 myheight-80" src="work.png" alt="work">
+    </div> 
+    <div  style="display: flex; margin-left: 5%;" class="w3-sand mywidth-90 "   >
+       <div style="margin-left:2%;   height: 25%; width: 30%;" class="w3-white"> 
+           <h2 class="w3-white"><i> Front-End</h2></i>
+           <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            </p>
+       </div>
+       <div style="margin-left:2%; height: 25%; width: 30%;" class="w3-white">
+            <h2 class="w3-white"><i> Back-End</h2></i>
+            <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                </p>
+
+       </div>
+       <div style="margin-left:2%; height: 25%; width: 30%;" class="w3-white">
+            <h2 class="w3-white"><i> Front-end</h2></i>
+            <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                </p>
+       </div>
+    </div>
+            <div style="margin-left: 14%;" ><h1><p>Get in Touch...</h1></p></div>
+        <div style="display: flex;">
+            <div style="margin-left:15%;">
+                <span>Name*</span><br>
+                <input type="text" id="name" class=" myheight-30 w3-round-large " style="width: 150%; background-color: blue;" value="Enter your Name"><br>
+                <span>Email</span><br>
+                <input type="text" id="email" class="myheight-30 w3-round-large" style="width: 150%; background-color: blue;" value="Enter your e-mail id"><br>
+            </div>
+                <div style="margin-left:20.7%;">
+                    <span>Send a Message*</span><br>
+                    <textarea name="Enter your message" id="message" class=" w3-round-large" style="background-color: blue;" id="message" cols="50" rows="6"></textarea>
+        
+                </div>
+        </div>
+            <button class="w3-btn w3-white w3-round-large" style="margin-left: 15%;" onclick="submit()" >Submit </button>
+            <button class="w3-btn w3-white w3-round-large" style="margin-left: 35%;" onclick="view()" >View </button>
+            <br> <br>
+            <div class="mywidth-75" style="margin-left:12.5%;" id="submmt">asfjahskfh</div>
+            <hr class="mywidth-75" style="margin: auto;">
+            <br> <br> 
+            <div>
+                <span style="margin-left: 8%;">&reg;Udaville</span>
+                <span style="margin-left: 5%;">Privacy</span>
+                <span style="margin-left: 5%;">Accessibility</span>
+                <span style="margin-left: 5%;">Terms</span>
+                <a href="https://www.instagram.com"><i class="fa fa fa-instagram" style="margin-left: 20%;" ></i></a><a href="https://www.linkedin.com"><i class="fa fa fa-linkedin" style="margin-left: 3%;"></i></a><a href="#"><i class="fa fa fa-youtube-play" style="margin-left: 3%;"></i></a> <a href="#"><i class="fa fa fa-twitter" style="margin-left: 3%;"></i></a> <a href="#"><i style="margin-left: 3%;" class="fa fa fa-facebook"></i></a>
+            </div>
 </body>
 </html>
