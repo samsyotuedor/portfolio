@@ -11,13 +11,24 @@ function submit() {
         mail:mail,
         messsge:messsge
     }
-    info.push(JSON.stringify(input));
+    info.push(input);
 }
 
 function view() {
+    let table = document.getElementById("pit");
+    table.innerHTML= ' ';
+    //let row = table.insertRow();
     for(i=0; i<info.length; i++){
-        
+        let row = table.insertRow();
+        let snCell = row.insertCell();
+        snCell.innerHTML = info[i].sn;
+        let ncell = row.insertCell();
+        ncell.innerHTML = info[i].names;
+        let mcell = row.insertCell();
+        mcell.innerHTML = info[i].mail;
+        let mscell = row.insertCell();
+        mscell.innerHTML = info[i].messsge;
+
     }
-    
     
 }
